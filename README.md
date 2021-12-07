@@ -16,7 +16,7 @@ It is possible to implement the pipeline of two inputs as one pipeline.
     }
 ```
 
-But when you use multi it as a consumer.
+But when you use multi it as a consumer..
 ```kotlin
     @Bean
     fun converter(): Consumer<Tuple2<Flux<String>, Flux<String>>> {
