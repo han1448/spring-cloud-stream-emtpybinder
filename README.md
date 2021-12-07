@@ -29,7 +29,7 @@ But when you use multi it as a consumer
     }
 ```
 
-Got following error
+Got following error.
 ```shell
 Caused by: java.lang.IllegalArgumentException: Function 'converter' is a Consumer which is not supported for multi-in/out reactive streams.
 Only Functions are supported
