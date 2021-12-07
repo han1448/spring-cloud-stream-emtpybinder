@@ -102,4 +102,3 @@ fun converter(): Function<Tuple2<Flux<String>, Flux<String>>, Flux<String>> {
   }
 }
 ```
-# spring-cloud-stream-emtpybinder
